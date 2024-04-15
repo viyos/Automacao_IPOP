@@ -41,9 +41,9 @@ navegador.get("https://www.hdi.com.br/rosie/ipop_v4/login")
 WebDriverWait(navegador, 20).until(EC.presence_of_element_located((By.ID,'usuario_input')))
 time.sleep(2)
 
-navegador.find_element(By.ID,'usuario_input').send_keys('victory')
+navegador.find_element(By.ID,'usuario_input').send_keys('login')
 
-navegador.find_element(By.ID,'senha_input').send_keys('Viyos@123')
+navegador.find_element(By.ID,'senha_input').send_keys('senha')
 
 time.sleep(1)
 
